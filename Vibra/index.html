@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ویبرا، فراتر از صدا">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>vibra | ویبرا</title>
+</head>
+<body>
+<!--navbar-->
+<nav>
+    <span class="icons">
+        <span class="menu"><i class="fas fa-bars"></i></span>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-shopping-cart fa-flip-horizontal"></i>
+    </span>
+
+    <div class="links">
+        <a href="#home">خانه</a>
+        <a href="#about-us">درباره ما</a>
+        <a href="#products">محصولات</a>
+        <a href="#discounts">تخفیف ها</a>
+        <a href="#footer">ارتباط با ما</a>
+    </div>
+
+    <span class="logo">
+        <img src="images/logo.png" alt="ویبرا">
+    </span>
+</nav>
+
+<!--section 1 : hero-->
+<section id="home" class="hero-section">
+    <div class="slides">
+        <!--slide 1-->
+        <div class="slide active">
+            <div class="text">
+                <div class="title">
+                    <h1>جدیدترین و 
+                    بهترین تجهیزات صوتی</h1>
+                </div>
+                <p>تجربه ای تازه از صدا، با برترین برند ها</p>
+                <button onclick="location.href='#products'">نمایش محصولات</button>
+            </div>
+            <img src="images/hero-headphone.png" alt="هدفون">
+        </div>
+
+        <!--slide 2-->
+        <div class="slide">
+            <div class="text">
+                <div class="title">
+                    <h1>جدیدترین و 
+                    بهترین تجهیزات صوتی</h1>
+                </div>
+                <p>تجربه ای تازه از صدا، با برترین برند ها</p>
+                <button>نمایش محصولات</button>
+            </div>
+            <img src="images/earbuds.png" alt="هدفون">
+        </div>
+
+        <!--slide 3-->
+        <div class="slide">
+            <div class="text">
+                <div class="title">
+                    <h1>جدیدترین و 
+                    بهترین تجهیزات صوتی</h1>
+                </div>
+                <p>تجربه ای تازه از صدا، با برترین برند ها</p>
+                <button>نمایش محصولات</button>
+            </div>
+            <img src="images/speaker.png" alt="هدفون">
+        </div>
+    </div>
+
+  <button class="prev">❮</button>
+  <button class="next">❯</button>
+
+  <div class="dots"></div>
+</section>
+
+<!--section 2 : about-->
+<section id="about-us" class="about-section">
+    <div class="text">
+        <h2>فروشگاه ما،
+            ارائه دهنده بهترین لوازم الکترونیکی با گارانتی معتبر و ارسال سریع
+        </h2>
+        <p>ما در فروشگاه ویبرا تلاش می‌کنیم بهترین محصولات الکترونیکی را با کیفیت عالی و قیمت مناسب به شما ارائه دهیم.
+            هدف ما رضایت کامل مشتری و تجربه خریدی آسان و سریع است.تیم ما همیشه آماده پاسخگویی به سوالات شماست و سعی
+            داریم خرید شما را لذت‌بخش و مطمئن کنیم.
+        </p>
+    </div>
+
+    <div class="taglines">
+        <a href="#delivery">ارسال سریع<i class="fas fa-shipping-fast fa-flip-horizontal"></i></a>
+
+        <a href="#guarantee">گارانتی معتبر<i class="fas fa-shield-alt"></i></a>
+
+        <a href="#support">پشتیبانی آنلاین<i class="fas fa-headset"></i></a>
+
+        <a href="#payment">پرداخت امن<i class="fas fa-credit-card"></i></a>
+    </div>
+</section>
+
+<!--section 3 : products-->
+<section id="products" class="product-section">
+    <h1>محصولات فروشگاه</h1>
+    <div class="categories">
+        <p>دسته بندی ها :</p>
+        <a class="fade-in" href="#headphone">هدفون</a>
+        <a class="fade-in" href="#speaker">اسپیکر</a>
+        <a class="fade-in" href="earbud">ایرپاد</a>
+    </div>
+
+    <div class="products">
+        <div class="product" data-aos="fade-up">
+            <div class="discount-tag">۱۵٪ تخفیف</div>
+            <img src="images/earbuds.png" alt="ایرپاد">
+            <h2>ایرپاد مدل M90</h2>
+            <div class="price">
+                <del>۱,۱۵۰,۰۰</del>
+                <h3 class="discount">۹۸۵,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <img src="images/speaker.png" alt="اسپیکر">
+            <h2>اسپیکر مدل 2025</h2>
+            <p class="price">۲,۲۳۰,۰۰۰ تومان</p>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <img src="images/microphone.png" alt="میکروفون">
+            <h2>میکروفون مدل جدید</h2>
+            <p class="price">۹۵۰,۰۰۰ تومان</p>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <img src="images/headphone.png" alt="هدفون">
+            <h2>هدفون مدل M92</h2>
+            <p class="price">۱,۸۰۰,۰۰۰ تومان</p>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <div class="discount-tag">۳۲٪ تخفیف</div>
+            <img src="images/smart-watch.png" alt="ساعت هوشمند">
+            <h2>ساعت هوشمند باکیفیت</h2>
+            <div class="price">
+                <del>۳,۸۰۰,۰۰۰</del>
+                <h3 class="discount">۲,۶۰۰,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <img src="images/smart-glasses.png" alt="عینک هوشمند">
+            <h2>عینک هوشمند جدید</h2>
+            <p class="price">۵,۲۰۰,۰۰۰ تومان</p>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <img src="images/phone-stand.png" alt="پایه گوشی">
+            <h2>پایه گوشی</h2>
+            <p class="price">۶۲۰,۰۰۰ تومان</p>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="fade-up">
+            <div class="discount-tag">۳۲٪ تخفیف</div>
+            <img src="images/wired-earphones.png" alt="هندزفری">
+            <h2>هندزفری مدل سیمی</h2>
+            <div class="price">
+                <del>۳۴۰,۰۰۰</del>
+                <h3 class="discount">۲۳۰,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="discounts" class="discount-section">
+    <div class="title">
+        <h1>تخفیف های ویژه</h1>
+        <P>محصولات پرفروش با قیمت استثنایی
+        فقط تا پایان امروز!
+        </P>
+    </div>
+
+    <div class="timer">
+        <div><span id="seconds">00</span><small>ثانیه</small></div>
+        <div><span id="minutes">00</span><small>دقیقه</small></div>
+        <div><span id="hours">00</span><small>ساعت</small></div>
+        <div><span id="days">00</span><small>روز</small></div>
+    </div>
+
+    <div class="products">
+        <div class="product" data-aos="flip-up">
+            <div class="discount-tag">۱۵٪ تخفیف</div>
+            <img src="images/earbuds.png" alt="ایرپاد">
+            <h2>ایرپاد مدل M90</h2>
+            <div class="price">
+                <del>۱,۱۵۰,۰۰</del>
+                <h3 class="discount">۹۸۵,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="flip-up">
+            <div class="discount-tag">۳۲٪ تخفیف</div>
+            <img src="images/wired-earphones.png" alt="هندزفری">
+            <h2>هندزفری مدل سیمی</h2>
+            <div class="price">
+                <del>۳۴۰,۰۰۰</del>
+                <h3 class="discount">۲۳۰,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+
+        <div class="product" data-aos="flip-up">
+            <div class="discount-tag">۳۲٪ تخفیف</div>
+            <img src="images/smart-watch.png" alt="ساعت هوشمند">
+            <h2>ساعت هوشمند باکیفیت</h2>
+            <div class="price">
+                <del>۳,۸۰۰,۰۰۰</del>
+                <h3 class="discount">۲,۶۰۰,۰۰۰ تومان</h3>
+            </div>
+
+            <div class="buttons">
+                <a class="details" href="singleProduct.html">جزئیات</a>
+                <a href="#buy"><i class="fas fa-shopping-cart fa-flip-horizontal"></i></a>
+                <a href="#like"><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonial-section">
+    <h1>نظرات مشتریان ما</h1>
+    <p class="title">نظر واقعی مشتریان ما درباره محصولات و خدمات</p>
+    <div class="comments">
+        <div class="comment" data-aos="fade-up">
+            <h3>مریم</h3>
+            <p>
+                من اولین بار بود از این فروشگاه خرید می‌کردم و واقعا تجربه عالی داشتم.
+                محصولی که دریافت کردم همون‌طور بود که توی سایت بود و کیفیتش خیلی خوب بود.
+                ارسال سریع انجام شد و بسته‌بندی خیلی مرتب بود. مطمئناً دوباره از اینجا خرید خواهم کرد.
+            </p>
+            
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+
+        </div>
+
+        <div class="comment" data-aos="fade-up">
+            <h3>سینا</h3>
+            <p>
+                بعد از کلی جستجو این فروشگاه رو انتخاب کردم و واقعا از انتخابم راضی‌ام.
+                قیمت‌ها منصفانه‌ست و تخفیف‌ها واقعا به‌صرفه هستن.پشتیبانی آنلاین هم خیلی سریع جواب داد
+                و مشکلم رو حل کرد. به همه دوستانم پیشنهادش می‌کنم.
+            </p>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+
+        <div class="comment" data-aos="fade-up">
+            <h3>الهام</h3>
+            <p>
+                محصولی که خریدم دقیقاً همونی بود که دنبالش بودم. طراحی سایت ساده و راحت بود
+                و خیلی سریع تونستم سفارشم رو ثبت کنم. از نحوه پیگیری سفارش و اطلاع‌رسانی پیامکی هم خوشم اومد.
+                حس می‌کنم واقعا به مشتری اهمیت داده میشه.
+            </p>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <p class="form-title">شما هم نظری بنویسید<i class="fas fa-pen-to-square"></i></p>
+    <form>
+        <input type="text" name="name" placeholder="نام">
+        <textarea name="comment" rows="7" cols="60" placeholder="نوشتن نظر"></textarea>
+
+        <div class="stars">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+        <input type="hidden" name="rate" id="rate" value="0">
+
+        <a>ثبت نظر<i class="fas fa-paper-plane fa-flip-horizontal"></i></a>
+    </form>
+
+</section>
+
+<section class="cta-section">
+    <h1>همین امروز با تخفیف‌های شگفت‌انگیز خرید کن!</h1>
+    <p>ارسال سریع + ضمانت بازگشت وجه + پشتیبانی ۲۴ ساعته</p>
+    <button onclick="location.href='#products'">شروع خرید</button>
+</section>
+
+<footer id="footer">
+    <div class="logo">
+        <img src="images/icon.png" alt="لوگو">
+        <h2>ویبرا</h2>
+    </div>
+
+    <div class="links">
+        <a href="#home">خانه</a>
+        <a href="#about-us">درباره ما</a>
+        <a href="#products">محصولات</a>
+        <a href="#discounts">تخفیف ها</a>
+        <a href="#contact-us">ارتباط با ما</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="/" class="icon"><i class="fa-brands fa-telegram"></i></a>
+        <a href="/" class="icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="/" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="/" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <div class="copyright">
+        <p>© 2025 فروشگاه الکترونیکی ویبرا – همه حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
